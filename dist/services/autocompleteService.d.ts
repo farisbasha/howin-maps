@@ -1,0 +1,1 @@
+export declare const getPlacePredictions: (input: string, locationBias: google.maps.LatLng | undefined, placesLib: google.maps.PlacesLibrary | null, map?: google.maps.Map | null) => Promise<google.maps.places.AutocompletePrediction[]>;
